@@ -28,6 +28,8 @@ public class Rectangle
 				length = userinput.nextInt();
 		
 		
+				//Samantha
+				
 		//Display the width and length on the console
 		System.out.println("The width is: " + width);
 		System.out.print("The length is: " + length);
