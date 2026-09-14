@@ -10,6 +10,8 @@ public class Rectangle
 		//Declare Variables
 		int length;
 		int width;
+		int area;
+		int perimeter;
 		
 		//Create a Scanner Object
 		Scanner userinput = new Scanner (System.in);
@@ -28,13 +30,21 @@ public class Rectangle
 				length = userinput.nextInt();
 		
 		
-				//Samantha
+
 				
 		//Display the width and length on the console
 		System.out.println("The width is: " + width);
 		System.out.print("The length is: " + length);
 		
+		area = length * width;
 		
+		System.out.print("Area = " + area);
+	
+		perimeter = (2 * length + 2 * width);
+		
+		//Display the perimeter
+		System.out.print("perimeter = " + perimeter);
+	
 	}
 
 }
