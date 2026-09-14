@@ -36,14 +36,15 @@ public class Rectangle
 		System.out.println("The width is: " + width);
 		System.out.print("The length is: " + length);
 		
+		//Calculate area
 		area = length * width;
 		
-		System.out.print("Area = " + area);
-	
+		System.out.println("Area = " + area);
+	//calculate perimeter
 		perimeter = (2 * length + 2 * width);
 		
 		//Display the perimeter
-		System.out.print("perimeter = " + perimeter);
+		System.out.println("perimeter = " + perimeter);
 	
 	}
 
