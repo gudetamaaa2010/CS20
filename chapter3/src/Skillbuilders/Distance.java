@@ -7,7 +7,7 @@ public class Distance
 
 	public static void main(String[] args) 
 	{
-		
+		//declare the variables
 		double distance1;
 		double distance2;
 		double distance3;

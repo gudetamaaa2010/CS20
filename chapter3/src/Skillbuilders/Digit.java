@@ -8,6 +8,7 @@ public class Digit
 	public static void main(String[] args) 
 	{
 		
+	//declare the variables
 	int digit;
 	int tens;
 	int ones;
@@ -21,13 +22,15 @@ public class Digit
 		
 		//Get the two digit number from the user
 				digit = userinput.nextInt();
-				
+		
+		//Display the user's two digit number
 		System.out.println("your two digit number: " + digit);
 		
 		//calculate then tens
 		tens = (digit / 10);
 		ones = (digit % 10);
 		
+		//display the digit's ones and tenth place
 		System.out.println("the tens place of your two digit number is: " + tens);
 		System.out.println("the ones place of your two digit numer is: " + ones);
 		
