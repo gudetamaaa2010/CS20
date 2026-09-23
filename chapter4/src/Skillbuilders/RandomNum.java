@@ -57,9 +57,7 @@ Enter the min number:
 9
 Enter the max number: 
 45
-Random number: 41
-/* 
- * 
+Random number: 41 
  */
 
 

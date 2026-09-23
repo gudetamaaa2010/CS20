@@ -1,3 +1,11 @@
+
+/*
+Program: Pizza Cost          Last Date of this Revision: September 21, 2026
+
+Purpose: Create  a PizzaCost application that prompts the user for the size of a pizza and then display the cost of making the pizza.
+
+*/
+
 package Mastery;
 
 import java.util.Scanner;
@@ -34,3 +42,14 @@ public class PizzaCost {
 	}
 
 }
+
+
+/*screen dump
+Enter the diameter of your pizza in inches: 10
+the total cost of making your pizza is:$6.75
+
+Enter the diameter of your pizza in inches: 15
+the total cost of making your pizza is:$13.0
+
+*/
+
