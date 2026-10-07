@@ -14,7 +14,8 @@ package Mastery;
 
 import java.util.Scanner;
 
-public class Change {
+public class Change 
+	{
 
 	public static void main(String[] args)
 	{
@@ -59,7 +60,7 @@ public class Change {
         
 	}
 
-}
+    }
 
 /* screen dump
 Enter the change in cents: 212
