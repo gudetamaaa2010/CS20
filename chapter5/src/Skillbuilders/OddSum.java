@@ -21,12 +21,16 @@ public class OddSum
 	    	for (int n = 1; n<= 20; n++) 
 	    	{
 
-	    			if (n % 3== 0) 
+	    			if (n % 2!= 0) 
 	    	
 	    	{
 	                    
 	    				System.out.println(n);
-	    		
+	    				sum += n;
+	    	}
+	    	        
+	    	        
+	    	        System.out.println("The sum is " + sum);
 	    	}	
 		
 		
@@ -43,4 +47,5 @@ public class OddSum
 
 	}
 
-	}
+	
+	
