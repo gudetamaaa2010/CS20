@@ -56,7 +56,7 @@ public class DigitsDisplay
 	}
 
 /*screen dump
- * 
+ 
 Enter your positive 3 digit number: 345
 the digit in the ones place is: 3
 the digit in the tens is: 4
