@@ -2,10 +2,8 @@ package Skillbuilders;
 
 public class TestCircle {
 
-	public static void main(String[] args) 
-	{
-	
-	Circle c = new Circle(2.5);
+	public static void main(String[] args) {
+		Circle c = new Circle(2.5);
 		
 		Circle c2 = new Circle(7.1);
 		
@@ -25,7 +23,6 @@ public class TestCircle {
 		{
 			System.out.println("c and c2 are not equal.");
 		}
-		
 		
 
 	}

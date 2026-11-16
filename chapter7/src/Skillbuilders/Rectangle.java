@@ -1,8 +1,6 @@
 package Skillbuilders;
 
-public class Rectangle 
-{
-
+public class Rectangle {
 private double length, width;
 	
 	public Rectangle() //Default Constructor method
@@ -92,6 +90,4 @@ private double length, width;
 			return(1);
 		}
 	}
-	
-	
 }

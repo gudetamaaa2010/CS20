@@ -2,7 +2,6 @@ package Skillbuilders;
 
 public class Circle 
 {
-
 	private double radius;
 	private static double PI = 3.14;
 	
@@ -73,5 +72,4 @@ public class Circle
 		
 		return(circ);
 	}
-
 }
