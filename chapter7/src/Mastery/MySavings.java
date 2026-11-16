@@ -1,4 +1,11 @@
-	package Mastery;
+/*
+Program: My Savings         Last Date of this Revision: November 16, 2026
+
+Purpose: Create an MySavings application that that displays a menu of choices for entering pennies, nickels, dimes, and quarters into the bank and then prompts the user to make a selection.
+*/
+
+
+package Mastery;
 
 import java.util.Scanner;
 
@@ -44,3 +51,23 @@ public class MySavings {
     }
 }
 
+/* screen dump
+1. Show total in bank
+2. Add a penny
+3. Add a nickel
+4. Add a dime
+5. Add a quarter
+6. Take money out of bank
+0. Quit
+Enter your choice: 2
+
+1. Show total in bank
+2. Add a penny
+3. Add a nickel
+4. Add a dime
+5. Add a quarter
+6. Take money out of bank
+0. Quit
+Enter your choice: 0
+
+ */
