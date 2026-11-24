@@ -10,15 +10,15 @@ Purpose: Create an MySavings application that that displays a menu of choices fo
 			import java.util.Scanner;
 
 			public class MySavings 
-		{
+		           {
 		    public static void main(String[] args) 
-		{
+		           {
 		        Scanner input = new Scanner(System.in);
 		        PiggyBank bank = new PiggyBank();
 		        int choice;
 
 		        do 
-		        {
+		            {
 		            System.out.println("\n1. Show total in bank");
 		            System.out.println("2. Add a penny");
 		            System.out.println("3. Add a nickel");
@@ -59,12 +59,12 @@ Purpose: Create an MySavings application that that displays a menu of choices fo
 		            {
 		                System.out.println("Invalid choice.");
 		            }
-		        } 
+		            } 
 		        while (choice != 0);
 
 		        input.close();
-		    }
-		}
+		           }
+		           }
 		
 
 /* screen dump
